@@ -36,5 +36,5 @@ else if (number == 7)
 }
 else 
 {
-	Console.WriteLine("Такого дня недели не суўествует");
+	Console.WriteLine("Такого дня недели не существует");
 }
