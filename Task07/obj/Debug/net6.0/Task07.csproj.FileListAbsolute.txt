@@ -1,0 +1,15 @@
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.csproj.AssemblyReference.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.GeneratedMSBuildEditorConfig.editorconfig
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.AssemblyInfoInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.AssemblyInfo.cs
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.csproj.CoreCompileInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\bin\Debug\net6.0\Task07.exe
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\bin\Debug\net6.0\Task07.deps.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\bin\Debug\net6.0\Task07.runtimeconfig.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\bin\Debug\net6.0\Task07.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\bin\Debug\net6.0\Task07.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\refint\Task07.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\Task07.genruntimeconfig.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task07\obj\Debug\net6.0\ref\Task07.dll
