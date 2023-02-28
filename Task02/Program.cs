@@ -11,13 +11,16 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число b");
 int numberB = Convert.ToInt32(Console.ReadLine());
 int max = numberA;
+int min = numberB;
 if (numberB > max) max = numberB;
 {
-	Console.WriteLine(max);
-}
-else
+	Console.WriteLine("Максимальное число: " + max);
+} 
+if (numberA < min ) min = numberA;
 {
-	Console.WriteLine("нет");
+	Console.WriteLine("Минимальное число: " + min);
 }
-
-
+if (numberA == numberB)
+{
+	Console.WriteLine("Было набрано одинаковые цифры");	
+}

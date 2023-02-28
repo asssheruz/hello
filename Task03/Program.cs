@@ -8,7 +8,6 @@ int number = Convert.ToInt32(Console.ReadLine());
 if (number == 1)
 {
 	Console.WriteLine("Понедельник");
-
 }
 else if (number == 2)
 {
@@ -34,7 +33,7 @@ else if (number == 7)
 {
 	Console.WriteLine("Воскресение");
 }
-else 
+else
 {
 	Console.WriteLine("Такого дня недели не существует");
 }
