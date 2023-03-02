@@ -1,0 +1,15 @@
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.csproj.AssemblyReference.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.GeneratedMSBuildEditorConfig.editorconfig
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.AssemblyInfoInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.AssemblyInfo.cs
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.csproj.CoreCompileInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\bin\Debug\net6.0\Task20.exe
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\bin\Debug\net6.0\Task20.deps.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\bin\Debug\net6.0\Task20.runtimeconfig.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\bin\Debug\net6.0\Task20.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\bin\Debug\net6.0\Task20.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\refint\Task20.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\Task20.genruntimeconfig.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task20\obj\Debug\net6.0\ref\Task20.dll
