@@ -7,15 +7,28 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine("Введите пятизначное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number < 0) number *= -1;
-if (number > 9999 && number < 100000)
+using System;
+namespace LosicalPrograms
 {
-	int result = number % 10;
-	Console.WriteLine(result);
-}
-else
-{
-	Console.WriteLine("Нужно ввести пятизначное число");
+	class LosicalPrograms
+	{
+		static void Main(string[] args)
+		{
+			int num, temp, revNum = 0, ren;
+			Console.Write("Введите натуральное пятизначное число: ");
+			num = Convert.ToInt32(Console.ReadLine());
+
+			temp = num;
+			while (num > 0)
+			{
+				ren = num % 10;
+				revNum = revNum * 10 + ren;
+				num = num / 10;
+			}
+			if (revNum == temp)
+				Console.WriteLine("Введенное число является полиндромом.");
+			else
+				Console.WriteLine("Число не является полиндромом.");
+		}
+	}
 }
