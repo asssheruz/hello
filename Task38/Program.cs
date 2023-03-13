@@ -1,4 +1,20 @@
-﻿double[] CreateArrayRndDouble(int size, int min, int max)
+﻿// Задача 38: Задайте массив вещественных чисел. 
+// Найдите разницу между максимальным и минимальным 
+// элементов массива.
+
+// [3.5, 7.1, 22.9, 2.3, 78.5] -> 76.2
+
+double[] array = CreateArrayRndDouble(8, 0, 50);
+PrintArrayDouble(array);
+double arraySearchMax = ArraySearchMax(array);
+double arraySearchMin = ArraySearchMin(array);
+double arrayResult = ArrayResult(array);
+Console.WriteLine($"Максимальное элемент массива: {arraySearchMax}");
+Console.WriteLine($"Минимальное элемент массива: {arraySearchMin}");
+
+Console.WriteLine($"Разница между максимальным и минимальным элементам массива равно {arrayResult}");
+
+double[] CreateArrayRndDouble(int size, int min, int max)
 {
 	double[] arr = new double[size];
 	Random rnd = new Random();
@@ -20,3 +36,31 @@ void PrintArrayDouble(double[] arr)
 	}
 	Console.WriteLine("]");
 }
+
+double ArraySearchMax(double[] arr)
+{
+	double maxNumber = 0;
+	for (int i = 0; i < arr.Length; i++)
+	{
+		if (arr[i] > maxNumber) maxNumber = arr[i];
+	}
+	return maxNumber;
+}
+
+double ArraySearchMin(double[] arr)
+{
+	double minNumber = 0;
+	for (int i = 0; i < arr.Length; i++)
+	{
+		if (arr[i] < minNumber) minNumber = arr[i];
+	}
+	return minNumber;
+}
+
+double ArrayResult(double[] arr)
+{
+	double result = arraySearchMax - arraySearchMin;
+	result = Math.Round(result, 1);
+	return result;
+}
+
