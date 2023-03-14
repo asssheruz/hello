@@ -5,10 +5,10 @@
 
 // [345, 897, 568, 234] -> 2 
 
-int[] array = CreateArrayRndInt(123, -150, 150);
+int[] array = CreateArrayRndInt(8, 100, 999);
 PrintArray(array);
-int arraySearch = ArraySearch(array);
-Console.WriteLine($"Количество двузначных элементов массива равно {arraySearch}");
+int arraySearchEvenNum = ArraySearchEvenNum(array);
+Console.WriteLine($"Количество чётных чисел в массиве: {arraySearchEvenNum}");
 
 int[] CreateArrayRndInt(int size, int min, int max)
 {
@@ -32,12 +32,12 @@ void PrintArray(int[] arr)
 	Console.WriteLine("]");
 }
 
-int ArraySearch(int[] arrayValue)
+int ArraySearchEvenNum(int[] array)
 {
 	int count = 0;
 	for (int i = 0; i < array.Length; i++)
 	{
-		if (array[i] >= 100 && array[i] <= 999) count++;
+		if (array[i] % 2 ==0) count++;
 	}
 	return count;
 }

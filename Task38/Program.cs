@@ -4,14 +4,13 @@
 
 // [3.5, 7.1, 22.9, 2.3, 78.5] -> 76.2
 
-double[] array = CreateArrayRndDouble(8, 0, 50);
+double[] array = CreateArrayRndDouble(5, -50, 50);
 PrintArrayDouble(array);
 double arraySearchMax = ArraySearchMax(array);
 double arraySearchMin = ArraySearchMin(array);
 double arrayResult = ArrayResult(array);
 Console.WriteLine($"Максимальное элемент массива: {arraySearchMax}");
 Console.WriteLine($"Минимальное элемент массива: {arraySearchMin}");
-
 Console.WriteLine($"Разница между максимальным и минимальным элементам массива равно {arrayResult}");
 
 double[] CreateArrayRndDouble(int size, int min, int max)
