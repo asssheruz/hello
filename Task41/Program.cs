@@ -17,17 +17,20 @@ int[] InputArray(int length)
 	int[] array = new int[length];
 	for (int i = 0; i < array.Length; i++)
 	{
-		array[i] = Prompt($"Введите (i + 1)-й элемент");
+		array[i] = Prompt($"Введите {i}-й элемент массива: ");
 	}
 	return array;
 }
 
-void PrintArray(int[] array)
+void PrintArray(int[] arr)
 {
-	for (int i = 0; i < array.Length; i++)
+	Console.Write("[");
+	for (int i = 0; i < arr.Length; i++)
 	{
-		Console.WriteLine($"a[{i}] = {array[i]}");
+		if (i < arr.Length - 1) Console.Write($"{arr[i]}, ");
+		else Console.Write($"{arr[i]}");
 	}
+	Console.Write("]");
 }
 
 int CountPositiveNumbers(int[] array)
@@ -35,16 +38,14 @@ int CountPositiveNumbers(int[] array)
 	int count = 0;
 	for (int i = 0; i < array.Length; i++)
 	{
-		if (array[i] > 0)
-		{
-			count++;
-		}
-		return count;
+		if (array[i] > 0) count++;
 	}
+	return count;
 }
 
 int length = Prompt("Введите количество элементов: ");
 int[] array;
 array = InputArray(length);
 PrintArray(array);
-Console.WriteLine($"Количество чисел больше 0 - {CountPositiveNumbers(array)}");
+int countPositiveNumbers = CountPositiveNumbers(array);
+Console.WriteLine($" --> {countPositiveNumbers}");
