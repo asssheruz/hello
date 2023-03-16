@@ -1,0 +1,15 @@
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.csproj.AssemblyReference.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.GeneratedMSBuildEditorConfig.editorconfig
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.AssemblyInfoInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.AssemblyInfo.cs
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.csproj.CoreCompileInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\bin\Debug\net6.0\Task48.exe
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\bin\Debug\net6.0\Task48.deps.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\bin\Debug\net6.0\Task48.runtimeconfig.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\bin\Debug\net6.0\Task48.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\bin\Debug\net6.0\Task48.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\refint\Task48.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\Task48.genruntimeconfig.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task48\obj\Debug\net6.0\ref\Task48.dll
