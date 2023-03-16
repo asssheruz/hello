@@ -18,5 +18,3 @@ else
 {
 	Console.WriteLine($"Остаток от деления -> {result}");
 }
-
-int Multiple (int num1, int num2);
