@@ -9,7 +9,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int countDigit = CountDigit(number);
 Console.WriteLine($"В числе {number} -> {countDigit} цифр.");
-int digitNum(int number)
+int CountDigit(int num)
 {
 	int count = 0;
 	while(num > 0)

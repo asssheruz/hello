@@ -3,3 +3,13 @@ E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Tas
 E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Task26.AssemblyInfoInputs.cache
 E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Task26.AssemblyInfo.cs
 E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Task26.csproj.CoreCompileInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\bin\Debug\net6.0\Task26.exe
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\bin\Debug\net6.0\Task26.deps.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\bin\Debug\net6.0\Task26.runtimeconfig.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\bin\Debug\net6.0\Task26.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\bin\Debug\net6.0\Task26.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Task26.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\refint\Task26.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Task26.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\Task26.genruntimeconfig.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task26\obj\Debug\net6.0\ref\Task26.dll

@@ -30,6 +30,7 @@ void Dictionary(int[] arr)
 	}
 	Console.WriteLine($"{value} ---> {count}");
 }
+
 int[] MatrixToArray(int[,] matrix)
 {
 	int[] array = new int[matrix.Length];

@@ -9,21 +9,17 @@
 // 8 4 2 4
 
 // 1,7->такого элемента в массиве нет
+
 int[,] array2d = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2d);
-// Console.WriteLine("Введите значение: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите позиции элемента: ");
-int usernum1 = Convert.ToInt32(Console.ReadLine());
-int usernum2 = Convert.ToInt32(Console.ReadLine());
-FrindElementMatrix(array2d, number);
+Console.WriteLine("Введите значение: ");
+int usernumber = Convert.ToInt32(Console.ReadLine());
+FrindElementMatrix(array2d, usernumber);
 
 int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {
-	int[,] matrix = new int[rows, columns]; //0, 1
-
+	int[,] matrix = new int[rows, columns]; 
 	Random rand = new Random();
-
 	for (int i = 0; i < matrix.GetLength(0); i++)
 	{
 		for (int j = 0; j < matrix.GetLength(1); j++)
@@ -48,7 +44,7 @@ void PrintMatrix(int[,] matrix)
 	}
 }
 
-// void FrindElementMatrix(int[,] frindelement, int usernumber)
+void FrindElementMatrix(int[,] frindelement, int usernumber)
 {
 	bool frind = false;
 	for (int i = 0; i < frindelement.GetLength(0); i++)
@@ -65,22 +61,3 @@ void PrintMatrix(int[,] matrix)
 	if (!frind)
 		Console.WriteLine("Такое значение в массиве нет.");
 }
-
-void FrindElementMatrix(int[,] frindelement, int usernumber)
-{
-	bool frind = false;
-	for (int i = 0; i < frindelement.GetLength(0); i++)
-	{
-		for (int j = 0; j < frindelement.GetLength(1); j++)
-		{
-			if (frindelement.GetLength(0) <= usernum1 && frindelement.GetLength(1) <= usernum2)
-			{
-				Console.WriteLine("Ваше значение находится по координатам: " + i + " " + j);
-				frind = true;
-			}
-		}
-	}
-	if (!frind)
-		Console.WriteLine("Такое значение в массиве нет.");
-}
-

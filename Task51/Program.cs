@@ -71,7 +71,7 @@ int DiagonalMatrixSumV2(int[,] matrix)
 
 int[,] array2d = CreateMatrixRndInt(4, 3, 0, 10);
 PrintMatrix(array2d);
-int diagonalMatrixSum = DiagonalMatrixSumV1(array2d);
-Console.WriteLine($"Сумма элементов массива по главной диагонали вариант 1: {diagonalMatrixSum}");
-diagonalMatrixSum = DiagonalMatrixSumV2(array2d);
-Console.WriteLine($"Сумма элементов массива по главной диагонали вариант 2: {diagonalMatrixSum}");
+int diagonalMatrixSumV1 = DiagonalMatrixSumV1(array2d);
+Console.WriteLine($"Сумма элементов массива по главной диагонали вариант 1: {diagonalMatrixSumV1}");
+int diagonalMatrixSumV2 = DiagonalMatrixSumV2(array2d);
+Console.WriteLine($"Сумма элементов массива по главной диагонали вариант 2: {diagonalMatrixSumV2}");

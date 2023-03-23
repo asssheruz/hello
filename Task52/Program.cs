@@ -11,8 +11,11 @@
 
 int[,] array2d = CreateMatrixRndInt(3, 4, -10, 10);
 PrintMatrix(array2d);
-double getAverageByColumn = GetAverageByColumn(avrgByColumns);
-Console.WriteLine($"Среднее арифметическое каждого столбца: {getAverageByColumn}");
+Console.WriteLine();
+
+double[] array = GetAverageByColumn(array2d);
+Console.WriteLine($"Среднее арифметическое каждого столбца:");
+PrintArrayDouble(array);
 
 int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {
@@ -43,13 +46,13 @@ void PrintMatrix(int[,] matrix)
 
 double[] GetAverageByColumn(int[,] arrayToGetAverage)
 {
-	double[] avrgByColumns = new double [arrayToGetAverage.GetLength(1)];
+	double[] avrgByColumns = new double[arrayToGetAverage.GetLength(1)];
 	for (int i = 0; i < arrayToGetAverage.GetLength(0); i++)
 	{
 		for (int j = 0; j < arrayToGetAverage.GetLength(1); j++)
 		{
 			avrgByColumns[j] += Convert.ToDouble(arrayToGetAverage[i, j]);
-			}
+		}
 	}
 	for (int i = 0; i < avrgByColumns.Length; i++)
 	{
@@ -58,4 +61,21 @@ double[] GetAverageByColumn(int[,] arrayToGetAverage)
 	return avrgByColumns;
 }
 
-
+void PrintArrayDouble(double[] arr)
+{
+	Console.Write("|");
+	for (int i = 0; i < arr.Length; i++)
+	{
+		if (i < arr.Length - 1)
+		{
+			arr[i] = Math.Round(arr[i], 1);
+			Console.Write($"{arr[i],5} ");
+		}
+		else
+		{
+			arr[i] = Math.Round(arr[i], 1);
+			Console.Write($"{arr[i],5} ");
+		}
+	}
+	Console.WriteLine("|");
+}
