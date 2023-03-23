@@ -1,0 +1,15 @@
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\bin\Debug\net7.0\Task61.exe
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\bin\Debug\net7.0\Task61.deps.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\bin\Debug\net7.0\Task61.runtimeconfig.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\bin\Debug\net7.0\Task61.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\bin\Debug\net7.0\Task61.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.csproj.AssemblyReference.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.GeneratedMSBuildEditorConfig.editorconfig
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.AssemblyInfoInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.AssemblyInfo.cs
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.csproj.CoreCompileInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\refint\Task61.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\Task61.genruntimeconfig.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task61\obj\Debug\net7.0\ref\Task61.dll
