@@ -9,7 +9,7 @@ Console.WriteLine("Введите целое положительное числ
 int n = Convert.ToInt32(Console.ReadLine());
 
 int naturalNumbers = NaturalNumbers(m, n);
-Console.WriteLine($" m = {m}, n = {n} -> {naturalNumbers}");
+Console.WriteLine($" A ({m}, {n}) = {naturalNumbers}");
 
 int NaturalNumbers(int m, int n)
 {

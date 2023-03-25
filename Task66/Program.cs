@@ -10,23 +10,18 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите целое положительное число N");
 int n = Convert.ToInt32(Console.ReadLine());
 
-int sum = SumNumbersDigits(m, n);
-Console.Write(sum);
+int sumNumbersDigits = SumNumbersDigits(m, n);
+Console.WriteLine(sumNumbersDigits);
 
 int SumNumbersDigits(int m, int n)
 {
-	sum = 0;
 	if (m < n)
 	{
-		sum += m;
-		SumNumbersDigits(m + 1, n);
-		return sum;
+		return m + SumNumbersDigits(m + 1, n);
 	}
 	else if (m > n)
 	{
-		sum += m;
-		SumNumbersDigits(m - 1, n);
-		return sum;
+		return m + SumNumbersDigits(m - 1, n);
 	}
-	else return sum = m + n;
+	else return m + n;
 }

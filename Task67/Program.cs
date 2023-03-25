@@ -3,23 +3,23 @@
 // 453 -> 12
 // 45 -> 9
 
-Console.WriteLine("Введите цeлое положительное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите цeлое положительное число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-int sumAllDigit = SumAllDigit(number);
-Console.Write($" Cумму его цифр: {sumAllDigit}");
+// int sumAllDigit = SumAllDigit(number);
+// Console.Write($"Cумма каждого цифры в числе: {sumAllDigit}");
 
-int SumAllDigit(int num)
-{
-	int result = 0;
-	while (num > 0)
-	{
-		result += num % 10;
-		num = num / 10;
-		SumAllDigit(num - 1);
-	}
-	return result;
-}
+// int SumAllDigit(int num)
+// {
+// 	int result = 0;
+// 	while (num > 0)
+// 	{
+// 		result += num % 10;
+// 		num = num / 10;
+// 		SumAllDigit(num - 1);
+// 	}
+// 	return result;
+// }
 
 Console.WriteLine("Введите цeлое положительное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
