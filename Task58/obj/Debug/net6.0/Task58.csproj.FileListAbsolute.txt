@@ -1,0 +1,15 @@
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\bin\Debug\net6.0\Task58.exe
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\bin\Debug\net6.0\Task58.deps.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\bin\Debug\net6.0\Task58.runtimeconfig.json
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\bin\Debug\net6.0\Task58.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\bin\Debug\net6.0\Task58.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.csproj.AssemblyReference.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.GeneratedMSBuildEditorConfig.editorconfig
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.AssemblyInfoInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.AssemblyInfo.cs
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.csproj.CoreCompileInputs.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\refint\Task58.dll
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.pdb
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\Task58.genruntimeconfig.cache
+E:\USER\Рабочий стол\gb.ru\C#\LP_23.02.23\Task58\obj\Debug\net6.0\ref\Task58.dll

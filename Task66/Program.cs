@@ -6,22 +6,32 @@
 // M = 4; N = 8. -> 30
 
 Console.WriteLine("Введите целое положительное число М");
-int m = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите целое положительное число N");
-int n = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
-int sumNumbersDigits = SumNumbersDigits(m, n);
-Console.WriteLine(sumNumbersDigits);
+// int sumNumbersDigits = SumNumbersDigits(m, n);
+// Console.WriteLine(sumNumbersDigits);
 
-int SumNumbersDigits(int m, int n)
+// int SumNumbersDigits(int m, int n)
+// {
+// 	if (m < n || m > n)
+// 	{
+// 		return m + SumNumbersDigits(m + 1, n);
+// 	}
+// 	else return m + n;
+// }
+
+int recursMetod = RecursMetod(a, b);
+Console.WriteLine(recursMetod);
+
+int RecursMetod(int a, int b)
 {
-	if (m < n)
+	int sum = 0;
+	if (a <= b)
 	{
-		return m + SumNumbersDigits(m + 1, n);
+		sum += a;
+		RecursMetod(a + 1, b);
 	}
-	else if (m > n)
-	{
-		return m + SumNumbersDigits(m - 1, n);
-	}
-	else return m + n;
+	return sum;
 }

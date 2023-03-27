@@ -13,8 +13,9 @@
 int[,] array2d = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2d);
 Console.WriteLine("Введите значение: ");
-int usernumber = Convert.ToInt32(Console.ReadLine());
-FrindElementMatrix(array2d, usernumber);
+int k = Convert.ToInt32(Console.ReadLine());
+int l = Convert.ToInt32(Console.ReadLine());
+FrindElementMatrix(array2d, k, l);
 
 int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {
@@ -44,7 +45,7 @@ void PrintMatrix(int[,] matrix)
 	}
 }
 
-void FrindElementMatrix(int[,] frindelement, int usernumber)
+// void FrindElementMatrix(int[,] frindelement, int usernumber)
 {
 	bool frind = false;
 	for (int i = 0; i < frindelement.GetLength(0); i++)
@@ -54,6 +55,24 @@ void FrindElementMatrix(int[,] frindelement, int usernumber)
 			if (frindelement[i, j] == usernumber)
 			{
 				Console.WriteLine("Ваше значение находится по координатам: " + i + " " + j);
+				frind = true;
+			}
+		}
+	}
+	if (!frind)
+		Console.WriteLine("Такое значение в массиве нет.");
+}
+
+void FrindElementMatrix(int[,] matrix, int k, int l)
+{
+	bool frind = false;
+	for (int i = 0; i < matrix.GetLength(0); i++)
+	{
+		for (int j = 0; j < matrix.GetLength(1); j++)
+		{
+			if (k < matrix.GetLength(0) && l < matrix.GetLength(1))
+			{
+				Console.WriteLine("По заданном координатам находится следующая значения: " + i + " " + j);
 				frind = true;
 			}
 		}
