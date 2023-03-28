@@ -8,13 +8,13 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите целое положительное число n:");
 int n = Convert.ToInt32(Console.ReadLine());
 
-int naturalNumbers = NaturalNumbers(m, n);
-Console.WriteLine($" A ({m}, {n}) = {naturalNumbers}");
+int functionsAkkerman = FunctionsAkkerman(m, n);
+Console.WriteLine($" A ({m}, {n}) = {functionsAkkerman}");
 
-int NaturalNumbers(int m, int n)
+int FunctionsAkkerman(int m, int n)
 {
 	if (m == 0) return n+1;
-	else if (n == 0) return NaturalNumbers(m - 1, 1);
-	else return NaturalNumbers(m - 1, NaturalNumbers(m, n-1)); 	
+	else if (n == 0) return FunctionsAkkerman(m - 1, 1);
+	else return FunctionsAkkerman(m - 1, FunctionsAkkerman(m, n-1)); 	
 }
 
